@@ -30,7 +30,13 @@ theme = "hugo-strata-theme"
 	[params.portfolio]
 		title = "Some ideas"
 
-		[[params.portfolio.gallery]]
+		[[params.portfolio.gallery1]]
+			image = "fulls/04.jpg"
+			thumb = "thumbs/04.jpg"
+			title = "Shopping Cart Checkouts"
+			description = "The shopping cart should act as a self checkout vehicle. I should be able to connect to the grocery store wifi and pay for the groceries in my cart. Add a simple scanner to the cart. All I would need to do is scan the items as i put them into the cart and walk to my car when I'm done."
+
+		[[params.portfolio.gallery1]]
 			image = "fulls/03.jpg"
 			thumb = "thumbs/03.jpg"
 			title = "Sanitary Wear"
@@ -38,17 +44,18 @@ theme = "hugo-strata-theme"
 
 		# The images and thumbnails are stored under static/images
 		# Create and change subfolders as you like
-		[[params.portfolio.gallery]]
+		[[params.portfolio.gallery2]]
 			image = "fulls/01.jpg"
 			thumb = "thumbs/01.jpg"
 			title = "Nexus 6P - Clean Touch"
 			description = "The fingerprint scanner on my Nexus 6P is awesome. It's fast, friendly and easy to find. To make this phone out of this world, it would be awesome if there was a section on the back of the phone that allowed me to interact with the screen. If I want to scroll down, I simply need to move my pointer finger downwards. No more dirty fingers on the screen. <br /><br />More, you could develop a simple algorithm that detects what the next logical action from the user will be within the window. If I move down slightly, the interface could highlight elements that are likely my next action. Answer the question, what do I intend to do?"
 
-		[[params.portfolio.gallery]]
+		[[params.portfolio.gallery2]]
 			image = "fulls/02.jpg"
 			thumb = "thumbs/02.jpg"
 			title = "Relative Volume"
 			description = "The reality is that my music comes from a multitude of sources. They are not equalized. Volume should be relative to the song. You could profile the song and play the equivalent of '8' for the song. The less I have to touch the volume control, the happier I am."
+
 
 
 	[params.contact]
